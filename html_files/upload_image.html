@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/upload_image.css">
+    <title>Document</title>
+</head>
+<style>
+    button{
+        width: 70px;
+        height: 20px;
+        border-radius:8px;
+    }
+</style>
+
+<body>
+    <div class="upload">
+        <h1>Send image</h1>
+        <div class="info-upload">
+            <p>Type: .png .jpg .jpeg</p>
+        </div>
+        <form id="form">
+            <input id="file" class="choose-file" type="file" accept="image/*" name="filetoupload" required><br>
+            <textarea id="title" type="text" class="comment" required></textarea><br>
+            
+            <select id="cat-select">
+                <!-- <option value="Kids">Kids</option>
+                <option value="Cars">Cars</option>
+                <option value="Nature">Nature</option>
+                <option value="Peoples">Peoples</option>
+                <option value="Foods">Foods</option>
+                <option value="Technology">Technology</option> -->
+            </select>
+
+            <br>
+            <input class="send" type="submit">
+        </form>
+    </div>
+<script src="/js/upload.js"></script>
+</body>
+</html>

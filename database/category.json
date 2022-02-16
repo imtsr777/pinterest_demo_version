@@ -1,0 +1,56 @@
+[
+    {
+        "categoryId":90543,
+        "title":"Nature photos",
+        "route":"nature",
+        "name":"nature_1.jpg"
+    },
+    {
+        "categoryId":43567,
+        "title":"Cars photos",
+        "route":"car",
+        "name":"volvo.jpg"
+    },
+    {
+        "categoryId":21345,
+        "title":"People photos",
+        "route":"people",
+        "name":"bharat.jpg"
+    },
+    {
+        "categoryId":90432,
+        "title":"Adventure photos",
+        "route":"adventure",
+        "name":"adventure_category.jpeg"    
+    },
+    {
+        "categoryId":23567,
+        "title":"Black and white photos",
+        "route":"black_white",
+        "name":"black_white.jpg"
+    },
+    {
+        "categoryId":25478,
+        "title":"Busines photos",
+        "route":"business",
+        "name":"busines_category.jpg"
+    },
+    {
+        "categoryId":43267,
+        "title":"Creative photos",
+        "route":"creative",
+        "name":"creative_category.jpg"
+    },
+    {
+        "categoryId":54890,
+        "title":"Editorial photos",
+        "route":"editorial",
+        "name":"editorial-category.jpg"
+    },
+    {
+        "categoryId":99887,
+        "title":"Familiy photos",
+        "route":"familiy",
+        "name":"familiy_category.jpg"
+    }
+]

@@ -1,0 +1,76 @@
+.upload{
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 600px;
+    background-image: linear-gradient(to bottom right, green, rgb(167, 230, 167));
+    border-radius: 12px;
+    box-shadow: 0 0 12px 3px black;
+}
+
+.info-upload{
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid green;
+    background-color: rgb(184, 220, 184);
+    width: 210px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 1px black;
+       
+}
+
+.comment{
+    margin-top:25px;
+    max-width: 300px;
+    max-height: 90px;
+    min-height: 90px;
+    min-width: 300px;
+    font-size: 22px;
+    border-radius: 8px;
+    border:1px solid green;
+    background-color: rgb(184, 220, 184);
+    box-shadow: 0 0 8px 1px black;
+
+}
+
+select{
+    margin-top:25px;
+    width: 308px;
+    height: 30px;
+    font-size: 18px;
+    border-radius:6px;
+    border:1px solid green;
+    background-color: rgb(184, 220, 184);
+    box-shadow: 0 0 8px 1px black;
+}
+
+
+.choose-file{
+    font-size: 18px;
+    border-radius:4px;
+    width: 308px;
+    background-color: rgb(184, 220, 184);
+    border:1px solid green;
+    box-shadow: 0 0 8px 1px black;
+}
+
+.send{
+    background-color: rgb(184, 220, 184);
+    box-shadow: 0 0 8px 1px black;
+    font-size: 18px;
+    margin-top: 25px;
+    width: 120px;
+    height: 40px;
+    border-radius:25px;
+    border:1px solid green ;
+}
+
+h1{
+    color: rgb(184, 220, 184);
+}

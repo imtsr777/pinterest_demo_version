@@ -1,0 +1,68 @@
+img{
+    width: 100%;
+    height: auto;
+}
+
+.heart-icon{
+    width: 30px;
+    height: 30px;
+    transition: 0.2s;
+}
+
+.heart-icon:hover{
+    transform: scale(1.23);
+}
+
+.data-time-heart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.card{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    padding-bottom: 25px;
+    color: green;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 8px 0.3px black;
+    margin-top: 30px;
+    background-color: rgb(224, 255, 224);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+
+.img-content-padding{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.main-images{
+    margin-top: 30px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.title-image{
+    height:80px;
+}
+
+.image-container{
+    min-height: 300px;
+    max-height: 300px;
+}
